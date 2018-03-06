@@ -1,6 +1,5 @@
 .gradle
 build/
-maven-repo/
 
 # OS generated files
 ################################################################################
@@ -19,7 +18,6 @@ Thumbs.db
 *.log
 *~
 target/
-build/
 out/
 
 
@@ -33,3 +31,7 @@ out/
 .settings/
 .classpath
 .history
+
+# Local gradle files and properties
+################################################################################
+gradle.properties
